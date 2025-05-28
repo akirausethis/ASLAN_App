@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB4B5222DE6EEC300EFEFCA /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3FB4B5212DE6EEC300EFEFCA /* FirebaseDatabase */; };
+		3FE50F552DDDC67700A27214 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3FE50F542DDDC67700A27214 /* FirebaseAuth */; };
+		3FE50F572DDDC68300A27214 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3FE50F562DDDC68300A27214 /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FE50F252DDDBA4200A27214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE50F0F2DDDBA4100A27214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE50F162DDDBA4100A27214;
+			remoteInfo = Aslan;
+		};
+		3FE50F2F2DDDBA4200A27214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE50F0F2DDDBA4100A27214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE50F162DDDBA4100A27214;
+			remoteInfo = Aslan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FE50F172DDDBA4100A27214 /* Aslan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aslan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE50F242DDDBA4200A27214 /* AslanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AslanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE50F2E2DDDBA4200A27214 /* AslanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AslanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3FE50F512DDDC64A00A27214 /* Exceptions for "Aslan" folder in "AslanTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Config/GoogleService-Info.plist",
+				ViewModels/LandingPageViewModel.swift,
+				ViewModels/LoginPageViewModel.swift,
+				ViewModels/RegisterPageViewModel.swift,
+				ViewModels/UserViewModel.swift,
+				Views/ChooseLanguagePageView.swift,
+				Views/ChooseLevelPageView.swift,
+				Views/ChooseReasonPageView.swift,
+				Views/ContinueRegisterPageView.swift,
+				Views/ContinueSetUsernamePageView.swift,
+				Views/LandingPageView.swift,
+				Views/LoginPageView.swift,
+				Views/RegisterPageView.swift,
+				Views/SetUsernamePageView.swift,
+			);
+			target = 3FE50F232DDDBA4200A27214 /* AslanTests */;
+		};
+		3FE50F522DDDC64A00A27214 /* Exceptions for "Aslan" folder in "AslanUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Config/GoogleService-Info.plist",
+				ViewModels/LandingPageViewModel.swift,
+				ViewModels/LoginPageViewModel.swift,
+				ViewModels/RegisterPageViewModel.swift,
+				ViewModels/UserViewModel.swift,
+				Views/ChooseLanguagePageView.swift,
+				Views/ChooseLevelPageView.swift,
+				Views/ChooseReasonPageView.swift,
+				Views/ContinueRegisterPageView.swift,
+				Views/ContinueSetUsernamePageView.swift,
+				Views/LandingPageView.swift,
+				Views/LoginPageView.swift,
+				Views/RegisterPageView.swift,
+				Views/SetUsernamePageView.swift,
+			);
+			target = 3FE50F2D2DDDBA4200A27214 /* AslanUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3FE50F192DDDBA4100A27214 /* Aslan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FE50F512DDDC64A00A27214 /* Exceptions for "Aslan" folder in "AslanTests" target */,
+				3FE50F522DDDC64A00A27214 /* Exceptions for "Aslan" folder in "AslanUITests" target */,
+			);
+			path = Aslan;
+			sourceTree = "<group>";
+		};
+		3FE50F272DDDBA4200A27214 /* AslanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AslanTests;
+			sourceTree = "<group>";
+		};
+		3FE50F312DDDBA4200A27214 /* AslanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AslanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE50F142DDDBA4100A27214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB4B5222DE6EEC300EFEFCA /* FirebaseDatabase in Frameworks */,
+				3FE50F572DDDC68300A27214 /* FirebaseCore in Frameworks */,
+				3FE50F552DDDC67700A27214 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE50F212DDDBA4200A27214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE50F2B2DDDBA4200A27214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FE50F0E2DDDBA4100A27214 = {
+			isa = PBXGroup;
+			children = (
+				3FE50F192DDDBA4100A27214 /* Aslan */,
+				3FE50F272DDDBA4200A27214 /* AslanTests */,
+				3FE50F312DDDBA4200A27214 /* AslanUITests */,
+				3FE50F532DDDC67700A27214 /* Frameworks */,
+				3FE50F182DDDBA4100A27214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE50F182DDDBA4100A27214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE50F172DDDBA4100A27214 /* Aslan.app */,
+				3FE50F242DDDBA4200A27214 /* AslanTests.xctest */,
+				3FE50F2E2DDDBA4200A27214 /* AslanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE50F532DDDC67700A27214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE50F162DDDBA4100A27214 /* Aslan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE50F382DDDBA4200A27214 /* Build configuration list for PBXNativeTarget "Aslan" */;
+			buildPhases = (
+				3FE50F132DDDBA4100A27214 /* Sources */,
+				3FE50F142DDDBA4100A27214 /* Frameworks */,
+				3FE50F152DDDBA4100A27214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3FE50F192DDDBA4100A27214 /* Aslan */,
+			);
+			name = Aslan;
+			packageProductDependencies = (
+				3FE50F542DDDC67700A27214 /* FirebaseAuth */,
+				3FE50F562DDDC68300A27214 /* FirebaseCore */,
+				3FB4B5212DE6EEC300EFEFCA /* FirebaseDatabase */,
+			);
+			productName = Aslan;
+			productReference = 3FE50F172DDDBA4100A27214 /* Aslan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FE50F232DDDBA4200A27214 /* AslanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE50F3B2DDDBA4200A27214 /* Build configuration list for PBXNativeTarget "AslanTests" */;
+			buildPhases = (
+				3FE50F202DDDBA4200A27214 /* Sources */,
+				3FE50F212DDDBA4200A27214 /* Frameworks */,
+				3FE50F222DDDBA4200A27214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE50F262DDDBA4200A27214 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3FE50F272DDDBA4200A27214 /* AslanTests */,
+			);
+			name = AslanTests;
+			packageProductDependencies = (
+			);
+			productName = AslanTests;
+			productReference = 3FE50F242DDDBA4200A27214 /* AslanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FE50F2D2DDDBA4200A27214 /* AslanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE50F3E2DDDBA4200A27214 /* Build configuration list for PBXNativeTarget "AslanUITests" */;
+			buildPhases = (
+				3FE50F2A2DDDBA4200A27214 /* Sources */,
+				3FE50F2B2DDDBA4200A27214 /* Frameworks */,
+				3FE50F2C2DDDBA4200A27214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE50F302DDDBA4200A27214 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3FE50F312DDDBA4200A27214 /* AslanUITests */,
+			);
+			name = AslanUITests;
+			packageProductDependencies = (
+			);
+			productName = AslanUITests;
+			productReference = 3FE50F2E2DDDBA4200A27214 /* AslanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE50F0F2DDDBA4100A27214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					3FE50F162DDDBA4100A27214 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					3FE50F232DDDBA4200A27214 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 3FE50F162DDDBA4100A27214;
+					};
+					3FE50F2D2DDDBA4200A27214 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 3FE50F162DDDBA4100A27214;
+					};
+				};
+			};
+			buildConfigurationList = 3FE50F122DDDBA4100A27214 /* Build configuration list for PBXProject "Aslan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FE50F0E2DDDBA4100A27214;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3FE50F412DDDC1F100A27214 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3FE50F182DDDBA4100A27214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE50F162DDDBA4100A27214 /* Aslan */,
+				3FE50F232DDDBA4200A27214 /* AslanTests */,
+				3FE50F2D2DDDBA4200A27214 /* AslanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE50F152DDDBA4100A27214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE50F222DDDBA4200A27214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE50F2C2DDDBA4200A27214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE50F132DDDBA4100A27214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE50F202DDDBA4200A27214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE50F2A2DDDBA4200A27214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FE50F262DDDBA4200A27214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE50F162DDDBA4100A27214 /* Aslan */;
+			targetProxy = 3FE50F252DDDBA4200A27214 /* PBXContainerItemProxy */;
+		};
+		3FE50F302DDDBA4200A27214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE50F162DDDBA4100A27214 /* Aslan */;
+			targetProxy = 3FE50F2F2DDDBA4200A27214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FE50F362DDDBA4200A27214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FE50F372DDDBA4200A27214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE50F392DDDBA4200A27214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = j.Aslan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FE50F3A2DDDBA4200A27214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = j.Aslan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FE50F3C2DDDBA4200A27214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = j.AslanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aslan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aslan";
+			};
+			name = Debug;
+		};
+		3FE50F3D2DDDBA4200A27214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = j.AslanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aslan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aslan";
+			};
+			name = Release;
+		};
+		3FE50F3F2DDDBA4200A27214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = j.AslanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aslan;
+			};
+			name = Debug;
+		};
+		3FE50F402DDDBA4200A27214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = j.AslanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aslan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE50F122DDDBA4100A27214 /* Build configuration list for PBXProject "Aslan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE50F362DDDBA4200A27214 /* Debug */,
+				3FE50F372DDDBA4200A27214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE50F382DDDBA4200A27214 /* Build configuration list for PBXNativeTarget "Aslan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE50F392DDDBA4200A27214 /* Debug */,
+				3FE50F3A2DDDBA4200A27214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE50F3B2DDDBA4200A27214 /* Build configuration list for PBXNativeTarget "AslanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE50F3C2DDDBA4200A27214 /* Debug */,
+				3FE50F3D2DDDBA4200A27214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE50F3E2DDDBA4200A27214 /* Build configuration list for PBXNativeTarget "AslanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE50F3F2DDDBA4200A27214 /* Debug */,
+				3FE50F402DDDBA4200A27214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FE50F412DDDC1F100A27214 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FB4B5212DE6EEC300EFEFCA /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FE50F412DDDC1F100A27214 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3FE50F542DDDC67700A27214 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FE50F412DDDC1F100A27214 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3FE50F562DDDC68300A27214 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FE50F412DDDC1F100A27214 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3FE50F0F2DDDBA4100A27214 /* Project object */;
+}
