@@ -1,24 +1,13 @@
-//
-//  ContentView.swift
-//  Aslan
-//
-//  Created by Student on 21/05/25.
-//
-
+// AslanApp/ContentView.swift
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        AnimatedNavbar() //
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(ProgressViewModel()) // Tambahkan ini
 }
