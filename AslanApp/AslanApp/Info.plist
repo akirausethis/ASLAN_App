@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>AslanApp needs to use speech recognition to evaluate your pronunciation and provide feedback.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>AslanApp needs microphone access to recognize your speech for pronunciation practice.</string>
+</dict>
+</plist>
