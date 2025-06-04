@@ -108,7 +108,7 @@ struct ContinueSetUsernamePageView: View {
             // Grup NavigationLink untuk setiap bahasa
             Group {
                 NavigationLink(
-                    destination: JapaneseMainPageView() // Halaman utama Jepang
+                    destination: JapaneseMainPageView(userViewModel: self.userViewModel) // Halaman utama Jepang
                         .navigationBarBackButtonHidden(true)
                         .navigationBarHidden(true),
                     isActive: $navigateToJapanese,
