@@ -1,161 +1,116 @@
-// AslanApp/Model/GrammarContentData.swiftAdd commentMore actions
+// AslanApp/Model/GrammarContentData.swift
 import Foundation
 
 struct GrammarContentData {
 
     static let allMaterials: [GrammarMaterial] = [
-        // --- Materi untuk "Frasa Umum Sehari-hari" ---
+        // --- Materi untuk "Basic Particles" ---
         GrammarMaterial(
-            courseTitle: "Common Daily Phrases",
-            topicTitle: "Basic Greetings",
+            courseTitle: "Basic Particles",
+            topicTitle: "Particle は (wa) - Topic Marker",
             explanation: """
-            Greetings are essential for starting conversations. These are some of the most common ways to greet someone in Mandarin Chinese.
-            你好 (Nǐ hǎo) is the most standard hello.
-            早上好 (Zǎoshang hǎo) is for 'good morning'.
+            Particle は (wa) is a topic marker. It indicates what the sentence is about.
+            It's often translated as "as for..." or "speaking of...".
+            When "は" is used as a particle, it is pronounced "wa", not "ha".
             """,
             examples: [
-                ExampleSentence(chinese: "你好！", pinyin: "Nǐ hǎo!", english: "Hello!"),
-                ExampleSentence(chinese: "你们好！", pinyin: "Nǐmen hǎo!", english: "Hello (to more than one person)!"),
-                ExampleSentence(chinese: "早上好！", pinyin: "Zǎoshang hǎo!", english: "Good morning!"),
-                ExampleSentence(chinese: "晚上好！", pinyin: "Wǎnshang hǎo!", english: "Good evening!")
+                ExampleSentence(japanese: "わたしはがくせいです。", romaji: "Watashi wa gakusei desu.", english: "I am a student."),
+                ExampleSentence(japanese: "これはほんです。", romaji: "Kore wa hon desu.", english: "This is a book."),
+                ExampleSentence(japanese: "きょうはいいてんきです。", romaji: "Kyou wa ii tenki desu.", english: "Today, the weather is good.")
             ],
-            tip: "Use 你好 (Nǐ hǎo) in most situations. For a more respectful greeting to an elder or someone in authority, you can use 您好 (Nín hǎo)."
+            tip: "Think of は (wa) as gently introducing the main subject you're going to talk about."
         ),
         GrammarMaterial(
-            courseTitle: "Common Daily Phrases",
-            topicTitle: "Expressing Gratitude and Apology",
+            courseTitle: "Basic Particles",
+            topicTitle: "Particle が (ga) - Subject Marker",
             explanation: """
-            Knowing how to say thank you and sorry is very important for polite interaction.
-            谢谢 (Xièxie) is the common way to say 'thank you'.
-            不客气 (Bú kèqi) means 'you're welcome'.
-            对不起 (Duìbuqǐ) is 'sorry'.
+            Particle が (ga) is a subject marker. It often indicates the subject of a verb, especially when new information is introduced or when the subject is the answer to a "who" or "what" question.
+            It can also emphasize the subject.
             """,
             examples: [
-                ExampleSentence(chinese: "谢谢！", pinyin: "Xièxie!", english: "Thank you!"),
-                ExampleSentence(chinese: "非常感谢！", pinyin: "Fēicháng gǎnxiè!", english: "Thank you very much!"),
-                ExampleSentence(chinese: "不客气。", pinyin: "Bú kèqi.", english: "You're welcome."),
-                ExampleSentence(chinese: "对不起。", pinyin: "Duìbuqǐ.", english: "Sorry."),
-                ExampleSentence(chinese: "没关系。", pinyin: "Méi guānxi.", english: "It's okay. / No problem.")
+                ExampleSentence(japanese: "ねこがいます。", romaji: "Neko ga imasu.", english: "There is a cat. / A cat exists."),
+                ExampleSentence(japanese: "だれがきましたか。", romaji: "Dare ga kimashita ka.", english: "Who came?"),
+                ExampleSentence(japanese: "このりんごがおいしいです。", romaji: "Kono ringo ga oishii desu.", english: "This apple is delicious.")
             ],
-            tip: "When someone thanks you, replying with 不客气 (Bú kèqi) is standard. 没事 (Méi shì) is also common for 'no problem'."
-        ),
-
-        // --- Materi untuk "Tata Bahasa Dasar Mandarin" ---
-        GrammarMaterial(
-            courseTitle: "Basic Chinese Grammar",
-            topicTitle: "Using 是 (shì) - To Be",
-            explanation: """
-            是 (shì) is a fundamental verb in Chinese, often equivalent to 'to be' (am, is, are, was, were).
-            It's used to link a subject with a noun or pronoun that identifies or describes the subject.
-            Structure: Subject + 是 (shì) + Noun.
-            """,
-            examples: [
-                ExampleSentence(chinese: "我是学生。", pinyin: "Wǒ shì xuéshēng.", english: "I am a student."),
-                ExampleSentence(chinese: "这是书。", pinyin: "Zhè shì shū.", english: "This is a book."),
-                ExampleSentence(chinese: "他是一名老师。", pinyin: "Tā shì yī míng lǎoshī.", english: "He is a teacher."),
-                ExampleSentence(chinese: "他们是朋友。", pinyin: "Tāmen shì péngyǒu.", english: "They are friends.")
-            ],
-            tip: "Remember, 是 (shì) primarily links two nouns or identifies something. For describing qualities with adjectives, you often use 很 (hěn) instead of 是 (shì), e.g., '她很高兴 (Tā hěn gāoxìng) - She is very happy'."
+            tip: "が (ga) often points out *which* specific thing is doing the action or being described."
         ),
         GrammarMaterial(
-            courseTitle: "Basic Chinese Grammar",
-            topicTitle: "Using 的 (de) - Possessive/Descriptive Particle",
+            courseTitle: "Basic Particles",
+            topicTitle: "Particle を (o) - Object Marker",
             explanation: """
-            The particle 的 (de) is one of the most common particles in Chinese. It's used to indicate possession (like 's in English) or to link an adjective/description to a noun.
-            Possession: Noun/Pronoun + 的 (de) + Noun
-            Description: Adjective + 的 (de) + Noun
+            Particle を (o) is an object marker. It indicates the direct object of a transitive verb (a verb that takes an object).
+            It shows what the action of the verb is being done to.
+            When "を" is used as a particle, it is pronounced "o".
             """,
             examples: [
-                ExampleSentence(chinese: "我的书。", pinyin: "Wǒ de shū.", english: "My book."),
-                ExampleSentence(chinese: "他的名字。", pinyin: "Tā de míngzi.", english: "His name."),
-                ExampleSentence(chinese: "红色的苹果。", pinyin: "Hóngsè de píngguǒ.", english: "Red apple."),
-                ExampleSentence(chinese: "漂亮的女孩。", pinyin: "Piàoliang de nǚhái.", english: "Beautiful girl.")
+                ExampleSentence(japanese: "パンをたべます。", romaji: "Pan o tabemasu.", english: "I eat bread."),
+                ExampleSentence(japanese: "みずをのみます。", romaji: "Mizu o nomimasu.", english: "I drink water."),
+                ExampleSentence(japanese: "ほんをよみます。", romaji: "Hon o yomimasu.", english: "I read a book.")
             ],
-            tip: "When the relationship is very close or obvious (like with family members or body parts), 的 (de) can sometimes be omitted, e.g., 我妈妈 (Wǒ māma) for 'my mom'."
-        ),
-        GrammarMaterial(
-            courseTitle: "Basic Chinese Grammar",
-            topicTitle: "Negating with 不 (bù)",
-            explanation: """
-            不 (bù) is used to negate verbs in the present or future, and also to negate adjectives. It generally means 'not' or 'no'.
-            Structure for verbs: Subject + 不 (bù) + Verb
-            Structure for adjectives: Subject + 不 (bù) + Adjective
-            Note: The tone of 不 (bù) changes to bú when it precedes a fourth tone syllable.
-            """,
-            examples: [
-                ExampleSentence(chinese: "我不吃肉。", pinyin: "Wǒ bù chī ròu.", english: "I don't eat meat."),
-                ExampleSentence(chinese: "他不是学生。", pinyin: "Tā bú shì xuéshēng.", english: "He is not a student."), // Note: Bú before shì (4th tone)
-                ExampleSentence(chinese: "这个不贵。", pinyin: "Zhège bù guì.", english: "This is not expensive."),
-                ExampleSentence(chinese: "我们不去。", pinyin: "Wǒmen bú qù.", english: "We are not going.") // Note: Bú before qù (4th tone)
-            ],
-            tip: "For negating past actions or the completion of an action, use 没 (méi) or 没有 (méiyǒu) instead of 不 (bù)."
+            tip: "Look for を (o) after the noun that is directly receiving the action of the verb."
         ),
 
-        // --- Materi untuk "Struktur Kalimat Dasar" ---
+        // --- Materi untuk "Verb Conjugation" ---
         GrammarMaterial(
-            courseTitle: "Basic Sentence Patterns",
-            topicTitle: "Basic Order: Subject-Verb-Object (SVO)",
+            courseTitle: "Verb Conjugation",
+            topicTitle: "Present Tense (ます -masu form)",
             explanation: """
-            The most common sentence structure in Mandarin Chinese is Subject-Verb-Object (SVO), which is similar to English.
-            The subject performs the action, the verb is the action, and the object receives the action.
+            The -masu form (ます) is a polite way to end verbs in the present affirmative tense. It's commonly used in everyday conversation with people you don't know well, or in formal situations.
+            To form it, you typically take the dictionary form of the verb and change its ending.
             """,
             examples: [
-                ExampleSentence(chinese: "我爱你。", pinyin: "Wǒ (S) ài (V) nǐ (O).", english: "I love you."),
-                ExampleSentence(chinese: "他看书。", pinyin: "Tā (S) kàn (V) shū (O).", english: "He reads a book."),
-                ExampleSentence(chinese: "小猫喝水。", pinyin: "Xiǎo māo (S) hē (V) shuǐ (O).", english: "The kitten drinks water.")
+                ExampleSentence(japanese: "たべます (食べる)", romaji: "tabemasu (taberu)", english: "to eat (polite)"),
+                ExampleSentence(japanese: "のみます (飲む)", romaji: "nomimasu (nomu)", english: "to drink (polite)"),
+                ExampleSentence(japanese: "いきます (行く)", romaji: "ikimasu (iku)", english: "to go (polite)"),
+                ExampleSentence(japanese: "みます (見る)", romaji: "mimasu (miru)", english: "to see/watch (polite)")
             ],
-            tip: "While SVO is standard, time phrases and adverbs often come after the subject but before the verb."
+            tip: "The -masu form is a great starting point for learning Japanese verbs as it's versatile and polite."
         ),
         GrammarMaterial(
-            courseTitle: "Basic Sentence Patterns",
-            topicTitle: "Asking Yes/No Questions with 吗 (ma)",
+            courseTitle: "Verb Conjugation",
+            topicTitle: "Present Negative (ません -masen form)",
             explanation: """
-            To turn a declarative statement into a yes/no question in Chinese, you can simply add the particle 吗 (ma) to the end of the sentence.
-            The word order of the statement does not change.
+            The -masen form (ません) is the polite negative form of verbs in the present tense. It's used to say that someone does not do an action, or something is not the case.
+            It's formed by changing the -masu (ます) ending to -masen (ません).
             """,
             examples: [
-                ExampleSentence(chinese: "你是学生吗？", pinyin: "Nǐ shì xuéshēng ma?", english: "Are you a student?"),
-                ExampleSentence(chinese: "他喜欢猫吗？", pinyin: "Tā xǐhuān māo ma?", english: "Does he like cats?"),
-                ExampleSentence(chinese: "这个贵吗？", pinyin: "Zhège guì ma?", english: "Is this expensive?"),
-                ExampleSentence(chinese: "你们去吗？", pinyin: "Nǐmen qù ma?", english: "Are you (plural) going?")
+                ExampleSentence(japanese: "たべません", romaji: "tabemasen", english: "do not eat (polite)"),
+                ExampleSentence(japanese: "のみません", romaji: "nomimasen", english: "do not drink (polite)"),
+                ExampleSentence(japanese: "いきません", romaji: "ikimasen", english: "do not go (polite)"),
+                ExampleSentence(japanese: "みません", romaji: "mimasen", english: "do not see/watch (polite)")
             ],
-            tip: "吗 (ma) is used for questions where a 'yes' or 'no' answer is expected. For 'wh-' questions (who, what, where), you'll use different question words like 谁 (shéi), 什么 (shénme), 哪里 (nǎlǐ)."
+            tip: "Simply swap ます (masu) with ません (masen) to make a polite verb negative."
         ),
-        
-        // --- Materi untuk "Kata Kerja Umum" ---
+
+        // --- Materi untuk "Sentence Structure" ---
         GrammarMaterial(
-            courseTitle: "Common Verbs",
-            topicTitle: "Action Verbs: 去 (qù), 来 (lái), 吃 (chī), 喝 (hē)",
+            courseTitle: "Sentence Structure",
+            topicTitle: "Basic Order: Subject-Object-Verb (SOV)",
             explanation: """
-            These are some very common action verbs.
-            去 (qù) means 'to go'.
-            来 (lái) means 'to come'.
-            吃 (chī) means 'to eat'.
-            喝 (hē) means 'to drink'.
-            Chinese verbs do not conjugate for tense or person in the same way English verbs do.
+            The most basic Japanese sentence structure is Subject-Object-Verb (SOV).
+            This is different from English, which is typically Subject-Verb-Object (SVO).
+            Particles mark the role of each noun (e.g., は for topic/subject, を for object).
             """,
             examples: [
-                ExampleSentence(chinese: "我去学校。", pinyin: "Wǒ qù xuéxiào.", english: "I go to school."),
-                ExampleSentence(chinese: "他明天来。", pinyin: "Tā míngtiān lái.", english: "He will come tomorrow."),
-                ExampleSentence(chinese: "我们吃米饭。", pinyin: "Wǒmen chī mǐfàn.", english: "We eat rice."),
-                ExampleSentence(chinese: "你想喝什么？", pinyin: "Nǐ xiǎng hē shénme?", english: "What do you want to drink?")
+                ExampleSentence(japanese: "わたしはパンをたべます。", romaji: "Watashi (S) wa pan (O) o tabemasu (V).", english: "I eat bread."),
+                ExampleSentence(japanese: "ねこがさかなをみています。", romaji: "Neko (S) ga sakana (O) o mite imasu (V).", english: "The cat is watching the fish."),
+                ExampleSentence(japanese: "たなかさんはほんをよみました。", romaji: "Tanaka-san (S) wa hon (O) o yomimashita (V).", english: "Mr. Tanaka read a book.")
             ],
-            tip: "Context, time words (like 今天 - jīntiān, 昨天 - zuótiān), and particles like 了 (le) help indicate tense or aspect."
+            tip: "Always look for the verb at the end of a Japanese sentence!"
         ),
         GrammarMaterial(
-            courseTitle: "Common Verbs",
-            topicTitle: "Verbs of Being & Having: 在 (zài), 有 (yǒu)",
+            courseTitle: "Sentence Structure",
+            topicTitle: "Adding か (ka) for Questions",
             explanation: """
-            在 (zài) can mean 'to be at (a place)' or indicate an ongoing action.
-            有 (yǒu) means 'to have' or 'there is/are'.
+            To turn a declarative sentence into a question in Japanese, you typically add the particle か (ka) to the end of the sentence.
+            The word order usually doesn't change. Your intonation will also rise at the end.
             """,
             examples: [
-                ExampleSentence(chinese: "我在家。", pinyin: "Wǒ zài jiā.", english: "I am at home."),
-                ExampleSentence(chinese: "他在看书。", pinyin: "Tā zài kàn shū.", english: "He is reading a book (action in progress)."),
-                ExampleSentence(chinese: "我有一个苹果。", pinyin: "Wǒ yǒu yī ge píngguǒ.", english: "I have an apple."),
-                ExampleSentence(chinese: "这里有人吗？", pinyin: "Zhèli yǒu rén ma?", english: "Is there anyone here?")
+                ExampleSentence(japanese: "これはほんですか。", romaji: "Kore wa hon desu ka.", english: "Is this a book?"),
+                ExampleSentence(japanese: "パンをたべますか。", romaji: "Pan o tabemasu ka.", english: "Do you eat bread?"),
+                ExampleSentence(japanese: "げんきですか。", romaji: "Genki desu ka.", english: "Are you well? / How are you?")
             ],
-            tip: "To negate 有 (yǒu), use 没有 (méiyǒu). For example, 我没有钱 (Wǒ méiyǒu qián) - I don't have money."
+            tip: "Adding か (ka) is the simplest way to form a yes/no question."
         )
     ]
 

@@ -6,7 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3F65DC092DEEDF8B00A6E7E3 /* AslanWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F65DBFC2DEEDF8A00A6E7E3 /* AslanWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
+		3F65DC072DEEDF8B00A6E7E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F71192D2DDEE8930072B64B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F65DBFB2DEEDF8A00A6E7E3;
+			remoteInfo = "AslanWatch Watch App";
+		};
 		3F7119462DDEE8950072B64B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F71192D2DDEE8930072B64B /* Project object */;
@@ -23,15 +34,63 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3F65DC0A2DEEDF8B00A6E7E3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F65DC092DEEDF8B00A6E7E3 /* AslanWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3F65DBFC2DEEDF8A00A6E7E3 /* AslanWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AslanWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7119352DDEE8930072B64B /* AslanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AslanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7119452DDEE8950072B64B /* AslanAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AslanAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F71194F2DDEE8950072B64B /* AslanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AslanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3F65DCB92DEEE59E00A6E7E3 /* Exceptions for "AslanApp" folder in "AslanWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Model/FlashCards/FlashCardLevel.swift,
+				Model/FlashCards/Korean/HangulFlashcard.swift,
+				Model/FlashCards/Korean/KoreanCharacterCard.swift,
+				Model/FlashCards/Korean/KoreanCharacterData.swift,
+				Model/Grammar/GrammarMaterial.swift,
+				Model/Grammar/KoreanGrammarContentData.swift,
+			);
+			target = 3F65DBFB2DEEDF8A00A6E7E3 /* AslanWatch Watch App */;
+		};
+		3F65DCC52DEEEC7900A6E7E3 /* Exceptions for "AslanWatch Watch App" folder in "AslanApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AslanWatchApp.swift,
+			);
+			target = 3F7119342DDEE8930072B64B /* AslanApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		3F65DBFD2DEEDF8A00A6E7E3 /* AslanWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F65DCC52DEEEC7900A6E7E3 /* Exceptions for "AslanWatch Watch App" folder in "AslanApp" target */,
+			);
+			path = "AslanWatch Watch App";
+			sourceTree = "<group>";
+		};
 		3F7119372DDEE8930072B64B /* AslanApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F65DCB92DEEE59E00A6E7E3 /* Exceptions for "AslanApp" folder in "AslanWatch Watch App" target */,
+			);
 			path = AslanApp;
 			sourceTree = "<group>";
 		};
@@ -48,6 +107,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F65DBF92DEEDF8A00A6E7E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F7119322DDEE8930072B64B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,6 +144,7 @@
 				3F7119372DDEE8930072B64B /* AslanApp */,
 				3F7119482DDEE8950072B64B /* AslanAppTests */,
 				3F7119522DDEE8950072B64B /* AslanAppUITests */,
+				3F65DBFD2DEEDF8A00A6E7E3 /* AslanWatch Watch App */,
 				3F7119362DDEE8930072B64B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +155,7 @@
 				3F7119352DDEE8930072B64B /* AslanApp.app */,
 				3F7119452DDEE8950072B64B /* AslanAppTests.xctest */,
 				3F71194F2DDEE8950072B64B /* AslanAppUITests.xctest */,
+				3F65DBFC2DEEDF8A00A6E7E3 /* AslanWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +163,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F65DBFB2DEEDF8A00A6E7E3 /* AslanWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F65DC0D2DEEDF8B00A6E7E3 /* Build configuration list for PBXNativeTarget "AslanWatch Watch App" */;
+			buildPhases = (
+				3F65DBF82DEEDF8A00A6E7E3 /* Sources */,
+				3F65DBF92DEEDF8A00A6E7E3 /* Frameworks */,
+				3F65DBFA2DEEDF8A00A6E7E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3F65DBFD2DEEDF8A00A6E7E3 /* AslanWatch Watch App */,
+			);
+			name = "AslanWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "AslanWatch Watch App";
+			productReference = 3F65DBFC2DEEDF8A00A6E7E3 /* AslanWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		3F7119342DDEE8930072B64B /* AslanApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F7119592DDEE8950072B64B /* Build configuration list for PBXNativeTarget "AslanApp" */;
@@ -102,12 +192,15 @@
 				3F7119312DDEE8930072B64B /* Sources */,
 				3F7119322DDEE8930072B64B /* Frameworks */,
 				3F7119332DDEE8930072B64B /* Resources */,
+				3F65DC0A2DEEDF8B00A6E7E3 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3F65DC082DEEDF8B00A6E7E3 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				3F65DBFD2DEEDF8A00A6E7E3 /* AslanWatch Watch App */,
 				3F7119372DDEE8930072B64B /* AslanApp */,
 			);
 			name = AslanApp;
@@ -173,6 +266,9 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					3F65DBFB2DEEDF8A00A6E7E3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					3F7119342DDEE8930072B64B = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -203,11 +299,19 @@
 				3F7119342DDEE8930072B64B /* AslanApp */,
 				3F7119442DDEE8950072B64B /* AslanAppTests */,
 				3F71194E2DDEE8950072B64B /* AslanAppUITests */,
+				3F65DBFB2DEEDF8A00A6E7E3 /* AslanWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F65DBFA2DEEDF8A00A6E7E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F7119332DDEE8930072B64B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,6 +336,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F65DBF82DEEDF8A00A6E7E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F7119312DDEE8930072B64B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +367,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3F65DC082DEEDF8B00A6E7E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F65DBFB2DEEDF8A00A6E7E3 /* AslanWatch Watch App */;
+			targetProxy = 3F65DC072DEEDF8B00A6E7E3 /* PBXContainerItemProxy */;
+		};
 		3F7119472DDEE8950072B64B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3F7119342DDEE8930072B64B /* AslanApp */;
@@ -269,6 +385,64 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3F65DC0B2DEEDF8B00A6E7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AslanWatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AslanWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "IMT-Turu.AslanApp";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IMT-Turu.AslanApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3F65DC0C2DEEDF8B00A6E7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AslanWatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AslanWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "IMT-Turu.AslanApp";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IMT-Turu.AslanApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
 		3F7119572DDEE8950072B64B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,6 +689,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F65DC0D2DEEDF8B00A6E7E3 /* Build configuration list for PBXNativeTarget "AslanWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F65DC0B2DEEDF8B00A6E7E3 /* Debug */,
+				3F65DC0C2DEEDF8B00A6E7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3F7119302DDEE8930072B64B /* Build configuration list for PBXProject "AslanApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

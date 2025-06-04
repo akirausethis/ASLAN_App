@@ -1,4 +1,4 @@
-import FoundationAdd commentMore actions
+import Foundation
 
 enum FlashcardLevel: String, CaseIterable, Identifiable {
     case beginner = "Beginner"
@@ -8,7 +8,14 @@ enum FlashcardLevel: String, CaseIterable, Identifiable {
     var id: String { self.rawValue }
 }
 
-struct ChineseCourse: Identifiable {
+struct JapaneseCourse: Identifiable {
+    let id = UUID()
+    let title: String
+    let subtitle: String
+    let iconName: String
+}
+
+struct KoreanCourse: Identifiable {
     let id = UUID()
     let title: String
     let subtitle: String

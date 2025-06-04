@@ -1,13 +1,13 @@
 //
 //  ContentView.swift
-//  AslanApp
+//  AslanWatch Watch App
 //
-//  Created by student on 22/05/25.
+//  Created by student on 03/06/25.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct WatchContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,6 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    KoreanMainPageView()
+    WatchContentView()
 }
-
