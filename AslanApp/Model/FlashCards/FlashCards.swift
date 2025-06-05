@@ -33,3 +33,6 @@ extension KatakanaFlashcard {
         return JapaneseCharacterData.allCharacters().compactMap { $0 as? KatakanaFlashcard }
     }
 }
+
+
+// MARK: - Extensions to provide all characters (ini bagian yang agak redundan,

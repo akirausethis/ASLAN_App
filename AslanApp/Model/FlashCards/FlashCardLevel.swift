@@ -14,3 +14,10 @@ struct JapaneseCourse: Identifiable {
     let subtitle: String
     let iconName: String
 }
+
+struct KoreanCourse: Identifiable {
+    let id = UUID()
+    let title: String
+    let subtitle: String
+    let iconName: String
+}
